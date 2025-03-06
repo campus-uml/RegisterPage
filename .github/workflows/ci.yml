@@ -1,0 +1,46 @@
+name: CI/CD y Cypress E2E Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Descargar el código
+        uses: actions/checkout@v4
+
+      - name: 🔧 Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: 📦 Instalar dependencias
+        run: npm install
+
+      - name: 🧪 Correr tests con coverage
+        run: npm run test -- --coverage
+
+  #     - name: Upload coverage reports to Codecov
+  #       uses: codecov/codecov-action@v5
+  #       with:
+  #         token: ${{ secrets.CODECOV_TOKEN }}
+
+
+  # deploy:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: 📥 Descargar el código
+  #       uses: actions/checkout@v4
+
+  #     - name: Deploy to production
+  #       uses: johnbeynon/render-deploy-action@v0.0.8
+  #       with:
+  #         service-id: ${{ secrets.RENDER_SERVICE_ID }}
+  #         api-key: ${{ secrets.RENDER_API_KEY }}
