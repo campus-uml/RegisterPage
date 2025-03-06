@@ -1,6 +1,6 @@
-# LoginPage
+# RegisterPage
 
-Este proyecto es una página de inicio de sesión utilizando **ShadCN**, **Tailwind CSS**, **React** y **Vite**. Además, la página cuenta con un **modo oscuro** que se puede activar y desactivar. 
+Este proyecto es una página de Registro utilizando **ShadCN**, **Tailwind CSS**, **React** y **Vite**. Además, la página cuenta con un **modo oscuro** que se puede activar y desactivar. 
 
 ## Enlace de vista previa
 
