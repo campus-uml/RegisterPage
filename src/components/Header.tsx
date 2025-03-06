@@ -10,7 +10,7 @@ export const Header = () => {
           <span className="sr-only">Menu</span>
         </button>
         <div className="flex items-center gap-4">
-          <button className="text-white flex items-center justify-center ">
+          <button data-testid="toggle-mode"  className="text-white flex items-center justify-center ">
             <ModeToggle />
           </button>
           <button className="text-white hover:bg-blue-600">
