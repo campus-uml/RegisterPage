@@ -1,54 +1,36 @@
-# React + TypeScript + Vite
+# LoginPage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una página de inicio de sesión utilizando **ShadCN**, **Tailwind CSS**, **React** y **Vite**. Además, la página cuenta con un **modo oscuro** que se puede activar y desactivar. 
 
-Currently, two official plugins are available:
+## Enlace de vista previa
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Puedes ver el proyecto en vivo en el siguiente enlace:  
+[LoginPage en Render](https://loginpage-7xs5.onrender.com)
 
-## Expanding the ESLint configuration
+## Tecnologías utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React**: Librería para construir interfaces de usuario.
+- **Vite**: Herramienta de construcción rápida para aplicaciones modernas en React.
+- **Tailwind CSS**: Framework de CSS de bajo nivel para diseñar rápidamente.
+- **ShadCN**: Componente de interfaz para crear interfaces rápidas y estilizadas con Tailwind.
+- **Modo oscuro**: Implementado utilizando las clases de Tailwind CSS y controlado mediante un estado en React.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Características
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- Interfaz de usuario limpia y moderna.
+- Soporte para **modo oscuro** y **modo claro**.
+- Estilos diseñados con **Tailwind CSS**.
+- Componente de inicio de sesión estilizado utilizando **ShadCN**.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Instalación
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/tu-usuario/LoginPage.git
+2. Instala las dependencias
+   ```bash
+   npm install
+3.Corre el proyecto
+  ```bash
+   npm run dev
