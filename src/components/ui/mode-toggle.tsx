@@ -7,7 +7,7 @@ export function ModeToggle() {
   return (
     <button
       data-testid="mode-toggle-button"
-      className="bg-transparent hover:bg-transparent focus:outline-none focus:ring-0"
+      className="bg-transparent hover:bg-transparent cursor-pointer focus:outline-none focus:ring-0"
       onClick={() => setTheme(currentTheme === "light" ? "dark" : "light")}
     >
       {currentTheme === "light" ? (
