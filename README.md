@@ -15,6 +15,9 @@ Puedes ver el proyecto en vivo en el siguiente enlace:
 - **ShadCN**: Componente de interfaz para crear interfaces rápidas y estilizadas con Tailwind.
 - **Modo oscuro**: Implementado utilizando las clases de Tailwind CSS y controlado mediante un estado en React.
 
+## Requisitos 
+-**node**: Instalar node v22 o superior.
+
 ## Características
 
 - Interfaz de usuario limpia y moderna.
