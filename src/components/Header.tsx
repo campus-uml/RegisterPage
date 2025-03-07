@@ -4,7 +4,7 @@ import { ModeToggle } from "./ui/mode-toggle";
 export const Header = () => {
   return (
     <>
-      <div className="flex items-center justify-between px-4 pt-4 text-white fixed top-0 left-0 right-0 bg-[#2196F3] ">
+      <div className="flex items-center justify-between px-5 pt-4 text-white fixed top-0 left-0 right-0 transparent backdrop-blur-xs">
         <button className="text-white hover:bg-blue-600">
           <Menu className="w-6 h-6" />
           <span className="sr-only">Menu</span>
