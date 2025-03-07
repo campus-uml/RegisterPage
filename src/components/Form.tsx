@@ -9,7 +9,7 @@ export const Form = () => {
   const [email, setEmail] = useState("");
   return (
     <>
-      <div data-testid="form" className="w-full pb-40 max-w-md bg-white dark:bg-gray-950 rounded-t-3xl p-6 shadow-lg">
+      <div data-testid="form" className="w-full pb-40 max-w-md bg-white dark:bg-gray-950 rounded-t-3xl p-6 shadow-lg md:max-w-lg lg:max-w-xl xl:max-w-2xl">
         <div className="space-y-6">
           <div className="space-y-2">
             <label
