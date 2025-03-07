@@ -10,9 +10,8 @@ export const Header = () => {
           <span className="sr-only">Menu</span>
         </button>
         <div className="flex items-center gap-4">
-          <button data-testid="toggle-mode"  className="text-white flex items-center justify-center ">
-            <ModeToggle />
-          </button>
+        <div data-testid="toggle-mode"  className="text-white flex items-center justify-center "><ModeToggle /></div>
+            
           <button className="text-white hover:bg-blue-600">
             <User className="w-6 h-6" />
             <span className="sr-only">User</span>
