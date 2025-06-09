@@ -9,7 +9,7 @@ const CreateAccount = () => {
         <Header />
         <div className="flex mt-15 flex-col items-center px-4 pt-8  text-white">
           <h1 className="text-2xl font-semibold mb-1">Create account</h1>
-          <p className="text-sm mb-12">Lorem ipsum dolor sit amet</p>
+          <p className="text-sm mb-12">Lorem ipsum dolor sit ame</p>
         </div>
         <div className="flex flex-col items-center ">
           <Form />
